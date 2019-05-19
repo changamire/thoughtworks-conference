@@ -26,15 +26,15 @@ algorithm.
 
 The application is structured in the following packages:-
 
-info.gregbiegel - this package contains a single Main class
-info.gregbiegel.model - this package contains a set of objects that model the domain
-info.gregbiegel.service - this package contains a service interface that provides
+* info.gregbiegel - this package contains a single Main class
+* info.gregbiegel.model - this package contains a set of objects that model the domain
+* info.gregbiegel.service - this package contains a service interface that provides
  read the input file and schedule the events contained therein.
-info.gregbiegel.service.exception - this package contains exception classes
+* info.gregbiegel.service.exception - this package contains exception classes
  defined by the service interface
-info.gregbiegel.service.binpack - this package contains 2 different bin-packing
+* info.gregbiegel.service.binpack - this package contains 2 different bin-packing
  algorithm implementations, and factories to create them.
-info.gregbiegel.service.binpack.exception - this package contains exception
+* info.gregbiegel.service.binpack.exception - this package contains exception
  classes defined by the bin pack interface
  
 ## Build and run the application
